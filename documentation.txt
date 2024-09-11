@@ -1,0 +1,4 @@
+cara menjalanakan :
+- build dulu image nya
+- jalankan container : docker run --rm -it -v .:/usr/src/myapp --name my-running-app bbm
+- intinya jalankan container nya harus di rm sama it, karena ini pake cli ga harus terus running dan ga pake port
